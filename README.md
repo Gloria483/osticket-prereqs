@@ -18,11 +18,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+we need Azure Virtual Machine and Installation files which include:
+- Heidi SQL
+- MySQL 
+- PHP manager for IIS(PHPManagerForIIS_V1.5.0.msi)
+- php-7.3.8
+- Rewrite Module(rewrite_amd64_en-US.msi)
+- VC_redist.x86.exe
+- osTicket-v1.15.8
 
 <h2>Installation Steps</h2>
 
