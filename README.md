@@ -74,22 +74,32 @@ After downloading osTickets, Then extract and copy the "upload" folder into c:\i
 <img src="https://i.imgur.com/Zj3eC7r.png://" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Open IIS Manager and restart the server. Once inside the IIS manager go to Sites->Default->osTicket on the right, and click "Browse*.80" From there your default browser should open the osTicket webserver.
 </p>
 
 <p>
 <img src="https://i.imgur.com/EnVoZdX.png://" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Open IIS Manager and restart the server. Once inside the IIS manager go to Sites->Default->osTicket on the right, click "Browse*.80" From there your default browser should open the osTicket webserver.
+Go back into the IIS manager and enable some extensions. To do this you have to go to Sites->Default->osTicket Then double click on PHP manager. Click on "Disable or enable an extension" Enable "php_intl.dll" & "php_opcache.dll" then refresh the osTicket webserver and observe the changes "Intl Extension" should now be enabled.
 
 
 </p>
 
 <p>
-<img src="https://i.imgur.com/HhUTtWG.png://" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dkeRuzE.png://" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Go back into c:\inetpub\wwwroot\osTicket\include\ost-sample config.php and rename the file to c:\inetpub\wwwroot\osTicket\include\ost-config.php Assign permissions to ost-config.php Disable inheritance->Removeall New Permissions->Everyone->all
 </p>
+<p>
+<img src="https://i.imgur.com/RNJ994A.png://" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Next, create a database using Heidi SQL 
+</p>
+<p>
+<img src="https://i.imgur.com/0IXdH8z.png://" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
 <br />
