@@ -58,11 +58,13 @@ To verify if you enabled Internet Information Services(IIS) successfully, you ty
 <img src="https://i.imgur.com/oh116PS.png://" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next, we are going to install all other prerequisites which include:
+PHP manager for IIS(PHPManagerForIIS_V1.5.0.msi),Mysql, PHP-7.3.8, Heidi SQL,Rewrite Module(rewrite_amd64_en-US.msi),VC_redist.x86.exe,osTicket-v1.15.8
+you can use this link to access all of the material you need to download to get osTicket up and running: "https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6"
 </p>
 
 <p>
-<img src="https://i.imgur.com/HhUTtWG.png://" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jCiQ1Iw.png://" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
