@@ -101,5 +101,19 @@ Next, create a database using Heidi SQL
 <p>
 <img src="https://i.imgur.com/0IXdH8z.png://" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<p>
+Afterward, continue setting up osTicket in the browser (click continue) then you will name the Helpdesk to your liking. Select a default email that will receive emails from customers who submit tickets, MySQL Database: osTicket, MySQL Username: root MySQL, Password: Password1. Click “Install Now!” Congratulations, hopefully, it is installed with no errors! 
+</p>
+<p>
+<img src="https://i.imgur.com/8u1zqI7.png://" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p> Clean up Delete: C:\inetpub\wwwroot\osTicket\setup Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)</p>
+
+
+
+
+
+
+</p>
 
 <br />
